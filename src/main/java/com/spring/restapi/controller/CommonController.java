@@ -9,6 +9,6 @@ public class CommonController {
 
     @GetMapping("/welcome")
     public ResponseEntity<?> getExample() {
-        return ResponseEntity.ok("Welcome to spring boot rest api example application");
+        return ResponseEntity.ok("Welcome to spring boot rest api application");
     }
 }
